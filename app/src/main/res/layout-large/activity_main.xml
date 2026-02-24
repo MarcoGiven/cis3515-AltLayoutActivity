@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/profile_photo"
+            android:layout_width="500dp"
+            android:layout_height="500dp"
+            android:scaleType="center"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textSize="75sp"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/emailLabel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingTop="8dp"
+            android:text="Email"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="500dp"
+            android:layout_height="75dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="60sp"
+            tools:text="Email Address" />
+
+        <TextView
+            android:id="@+id/extensionLabel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingTop="8dp"
+            android:text="Extension"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/extension"
+            android:layout_width="500dp"
+            android:layout_height="75dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="60sp"
+            tools:text="Extension" />
+
+        <TextView
+            android:id="@+id/departmentLabel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingTop="8dp"
+            android:text="Department"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="500dp"
+            android:layout_height="75dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="60sp"
+            tools:text="Department name" />
+
+        <TextView
+            android:id="@+id/supervisorLabel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingTop="8dp"
+            android:text="Supervisor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/supervisor"
+            android:layout_width="500dp"
+            android:layout_height="75dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textSize="60sp"
+            tools:text="Supervisor\'s Name" />
+
+        <TextView
+            android:id="@+id/directReportsLabel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:paddingTop="8dp"
+            android:text="Direct Reports"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textSize="30sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/directReportsRecyclerView"
+            android:layout_width="530dp"
+            android:layout_height="425dp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -55,7 +55,7 @@ class RecyclerViewAdapter (private val staffList: Array<String>) : RecyclerView.
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StaffListViewHolder {
         return StaffListViewHolder(
             TextView(parent.context).apply {
-                textSize = 22f
+                textSize = 30f
                 setTextColor(Color.BLUE)
                 setPadding(50,8,0,8)
             }
