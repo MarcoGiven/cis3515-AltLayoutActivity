@@ -34,12 +34,12 @@ class MainActivity : AppCompatActivity() {
         with (findViewById<RecyclerView>(R.id.directReportsRecyclerView)) {
             adapter = RecyclerViewAdapter(
                 arrayOf(
-                    "Kate Sacloff",
-                    "Andrew Klein",
-                    "Maria Ortega",
-                    "Brent Stevenson",
-                    "Daniel Cho",
-                    "Jorge Gomez"
+                    getString(R.string.dirReports1),
+                    getString(R.string.dirReports2),
+                    getString(R.string.dirReports3),
+                    getString(R.string.dirReports4),
+                    getString(R.string.dirReports5),
+                    getString(R.string.dirReports6)
                 )
             )
             layoutManager = LinearLayoutManager(this@MainActivity)

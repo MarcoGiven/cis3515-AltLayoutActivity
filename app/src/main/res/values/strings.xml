@@ -19,5 +19,12 @@
     <string name="department">Desgin</string>
     <string name="supervisor">Gail Davers</string>
 
+    <string name="dirReports1">Kate Sacloff</string>
+    <string name="dirReports2">Andrew Klein</string>
+    <string name="dirReports3">Maria Ortega</string>
+    <string name="dirReports4">Brent Stevenson</string>
+    <string name="dirReports5">Daniel Cho</string>
+    <string name="dirReports6">Jorge Gomez</string>
+
 
 </resources>
